@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock, Paper, Scissors</title>
+        <link rel="stylesheet" href="styling.css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="page-title">
+                Rock, Paper, Scissors
+            </h1>
+            <hr>
+            <p>
+                Choose your hero!
+            </p>
+            <div class="buttons">
+                <button onclick="rock()">
+                    <img class="selection-image" src="rock.png">
+                </button>
+                <button onclick="paper()">
+                    <img class="selection-image" src="paper.png">
+                </button>
+                <button onclick="scissors()">
+                    <img class="selection-image" src="scissors.png">
+                </button>
+            </div>
+            <br>
+            <p id="statement"></p>
+            <br>
+            <div class="results">
+                <img id="rock-image" class="result-image" src="rock.png">
+                <img id="paper-image" class="result-image" src="paper.png">
+                <img id="scissors-image" class="result-image" src="scissors.png">
+            </div>
+            <br>
+            <p id="result-text"></p>
+        </div>
+    </body>
+</html>
